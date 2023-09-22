@@ -33,7 +33,7 @@ while i_a < len(secret_word):
     if (secret_word[i_a] == guess[i_a]):
         emoji_string = emoji_string + GREEN_BOX
     # Else, if that letter exists somewhere else in the secret_word add a yellow box.
-    elif (character_exists_in_secret is True ):
+    elif (character_exists_in_secret is True):
         emoji_string = emoji_string + YELLOW_BOX
     # If neither is true add a white box.
     else:
