@@ -45,8 +45,7 @@ print(emoji_string)
 
 # if guess matches the length of the secret word, but is not right tell them
 if (guess != secret_word):
-    print("Not quite. Play again soon!")
-        
+    print("Not quite. Play again soon!")  
 else:
     # if you've reached this point guess == secret
     print("Woo! You got it!")
